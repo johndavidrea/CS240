@@ -1,0 +1,10 @@
+Grokking Algorithms has an excellent explanation for how binary search works that was extremely helpful. 
+I also spent a lot of time on w3schools going through the python beginners guide to start learning the language.
+
+Binary search aims to half the number of possible answers each time you guess. Either the answer is lower than your guess, higher that your guess, or your guess is correct. 
+To maximize efficiency we should guess the midpoint each time, giving us a time complexity of O(log n).
+We need two methods, one to read the file and convert it to an array, and one to house the algorithm. Reading a file is quite easy in Python, making that step simple. 
+The search itself is simple as well, and we can contain the bulk of it in a single while loop.
+
+Currently this program will only work with positive integer values that are pre-sorted and each contained on a single line. 
+This could be expanded upon, and you could prompt the user for a number instead of using a hardcoded number, but given the small scope of the project I think adding that complexity would be more of a hinderance than a help.
