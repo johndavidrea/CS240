@@ -9,8 +9,7 @@
 				Change the lowpoint or highpoint as appropriate.
 
 2. Write in the programming language of your choice a binary search algorithm that works over an array. Comment to explain the algorithm.
-
-
+https://github.com/johndavidrea/CS240/blob/main/BinarySearch.py
 
 3.  Use the attached file numbers.txt Download numbers.txtand use your algorithm to answer the below questions. You will have to implement an operation counter to answer these.  Submit your code that answers these. 
    
