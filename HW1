@@ -41,11 +41,11 @@
 4. Evaluate the time complexity of the following code snippets. Evaluate line by line, create a time complexity function and then define its Big O value.
   	a.
 		function sum(arr){
-	  		counter = 0
-			for (i = 0; i < arr.length; i++) {
-	       		counter += arr[i]
-			}
-			return counter
+	  	  counter = 0
+		  for (i = 0; i < arr.length; i++) {
+	       	    counter += arr[i]
+		  }
+		  return counter
 		}
 		T(n) = O(1) + O(n) + O(1) + O(1)
 		Overall time complexity is O(n)
@@ -54,11 +54,11 @@
 		function getXOR(arr1, arr2){		
 		  arr3 = []
 		  for (i = 0; i < arr1.length; i++){
-		      let unique = True
-		      for (j = 0; j < arr2.length; j++ }{
-		        if(arr1[i] == arr2[j]) {unique = False;}
-		      }
-		      if (unique) {arr3.append(arr1[i]);}
+		    let unique = True
+		    for (j = 0; j < arr2.length; j++ }{
+		      if(arr1[i] == arr2[j]) {unique = False;}
+		    }
+		    if (unique) {arr3.append(arr1[i]);}
 		    }
 		  }  
 		  for (i = 0; i < arr2.length; i++){
