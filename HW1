@@ -23,10 +23,11 @@
       This number does not exist in the array. It took 11 operations to verify this.
 
     d. What is the worst case time complexity? Evaluate line by line, create a time complexity function and then define its Big O value.
-      We have two functions being called. The first reads the file and generates an array with the numbers it contains. 
-			Reading each line of the file and generating an array is a linear operation and has a time complexity of O(n) 
-			The second function is the binary search. In each step of the search, the search space is halved. The worst case is when the element is in the first or last position.
-			Since the dominant term between these function is O(log n), the worst case time complexity for binary search is O(log n). 
+    	We have two functions being called. The first reads the file and generates an array with the numbers it contains. 
+		Reading each line of the file and generating an array is a linear operation and has a time complexity of O(n) 
+		The second function is the binary search. In each step of the search, the search space is halved. The worst case is when the element is in the first or last position.
+		T(n) = O(n) + O(log n) (constant time operations not included)
+		Since the dominant term between these function is O(log n), the worst case time complexity for binary search is O(log n). 
  
     e.  What would the worst case time complexity be if we have 4000 entries instead of 2000?
 			It would still be O(log n).
@@ -69,5 +70,5 @@ f. What do you think the average case time complexity is for binary search? Expl
 		  }
 		  return arr[3]
 		}
-		T(n) = O(1) + O(n^2) + O(1) + O(1) + O(n^2) + O(1) + O(1) + O(1) + O(1) 
+		T(n) = O(n^2) + O(n^2) (constant time operations not included)
 		Overall time complexity is O(n^2)
