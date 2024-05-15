@@ -47,6 +47,7 @@
 		  }
 		  return counter
 		}
+
 		T(n) = O(1) + O(n) + O(1) + O(1)
 		Overall time complexity is O(n)
 
@@ -70,5 +71,6 @@
 		  }
 		  return arr[3]
 		}
+
 		T(n) = O(n^2) + O(n^2) (constant time operations not included)
 		Overall time complexity is O(n^2)
