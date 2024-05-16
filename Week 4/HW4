@@ -36,3 +36,5 @@
 5. How do the best, average and worst case time complexities compare between these two algorithms? 
 
 6. Use the uploaded file to verify your sort algorithms are working. numbers-4.txt Download numbers-4.txt  What is the position of 90262? What is the position of 11559? 
+    The position of 90262 is 3608
+    11559 does not exist in the list of numbers
