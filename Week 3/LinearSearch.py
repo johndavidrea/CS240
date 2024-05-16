@@ -3,7 +3,7 @@ def iterativeSearch(array, target):
     # Loop through each element of the array
     for index in array:
         # Compare the current element of the array with the target
-        if array(index) == target:
+        if array[index] == target:
             # If a match is found, return the index
             return index
     # If the loop completes without finding the target, then the target does not exist in the array
