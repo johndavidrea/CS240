@@ -21,4 +21,4 @@ def recursiveSearch(array, target, index=0):
         # If so, return the index
         return index
     # Return the recursive function with the index incremented by 1
-    recursiveSearch(array, target, index + 1)
+    return recursiveSearch(array, target, index + 1)
