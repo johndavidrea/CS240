@@ -1,1 +1,29 @@
+1. Write in pseudo code a merge sort algorithm the works over an array. Comment to explain the algorithm.
+    Define the function, taking in an array as a parameter
+        If the array only has one value it doesn't need to be sorted
+        If the length of the array is > 1:
+            Use floor division to find the midpoint
+            Split the array into two halves
+            Call the function recursively to sort the left and right halves independantly
+            Declare index variables for the left, right, and main arrays
+            Merge while both the left and right arrays have elements remaining:
+                Check to see if the left array at the left index variable is less than or equal to the right array at the right index variable:
+                    If so, set the main array at current index equal to the left value and increment the left index counter
+                    If not, set the main array at current index equal to the right value and increment the right index counter
+                Increment the main index after each loop
+            Merge while only the left array has elements remaining:
+                Set the main array at current index equal to the left array at the left index
+                Increment both indices
+            Merge while only the right array has elements remaining:
+                Set the main array at current index equal to the right array at the right index
+                Increment both indices
+        
+2. Write in the programming language of your choice a merge sort algorithm that works over an array. Comment to explain the algorithm.
 
+3. Write in pseudo code a quick sort algorithm the works over an array. Comment to explain the algorithm.
+
+4. Write in the programming language of your choice a quick sort algorithm that works over an array. Comment to explain the algorithm.
+
+5. How do the best, average and worst case time complexities compare between these two algorithms? 
+
+6. Use the uploaded file to verify your sort algorithms are working. numbers-4.txt Download numbers-4.txt  What is the position of 90262? What is the position of 11559? 
