@@ -19,10 +19,19 @@
                 Increment both indices
         
 2. Write in the programming language of your choice a merge sort algorithm that works over an array. Comment to explain the algorithm.
+    https://github.com/johndavidrea/CS240/blob/main/Week%204/MergeSort.py
 
 3. Write in pseudo code a quick sort algorithm the works over an array. Comment to explain the algorithm.
+    Define the function, taking in an array as a parameter
+        Check to see if the array only contains a single value
+            If so, return the array as sorting is not needed
+        Set the first number in the array as a pivot point variable
+        Split the array into two smaller arrays, with the left array being assigned numbers less than the pivot point and the right array being assigned numbers that are greater than or equal to the pivot point
+        Concatenate the left array, pivot point, and right array into a single array
+        Return this new array as the parameter of a recursive calling of this function
 
 4. Write in the programming language of your choice a quick sort algorithm that works over an array. Comment to explain the algorithm.
+    https://github.com/johndavidrea/CS240/blob/main/Week%204/Quicksort.py
 
 5. How do the best, average and worst case time complexities compare between these two algorithms? 
 
