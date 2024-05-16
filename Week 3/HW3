@@ -14,9 +14,12 @@
             Return the recursive function with the index incremented by 1
 
 2. Write the same linear search algorithms in the programming language of your choice. Comment to explain.
+    https://github.com/johndavidrea/CS240/blob/main/Week%203/LinearSearch.py
 
 3. Rewrite the binary search algorithm from week 1 in a recursive form in pseudo code and in the programming language of your choice. Comment to explain.
+    https://github.com/johndavidrea/CS240/blob/main/Week%203/BinarySearchRecursive.py
 
 4. Find a for loop you wrote in previous course work and rewrite it as a recursive function (it can not be a simple linear search problem). Please show the original code in your submission.
+    
 
 5. Use the following attached documents to test your search algorithms. numbers-3.txt Download numbers-3.txtUse one of your sorting algorithms to sort the list first before implementing binary search. What position is 8128705 in?   What position is 5842193?
