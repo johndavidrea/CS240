@@ -1,4 +1,4 @@
-# Mergesort works by splitting a list into two parts, sorting them independantly, and then merging them together
+# Mergesort works by splitting a list into two parts, sorting them independently, and then merging them together
 # Define the function, taking in an array as a parameter
 def mergeSort(mainArray):
     # If the array only has one value it doesn't need to be sorted
@@ -22,15 +22,15 @@ def mergeSort(mainArray):
         # Merge while both the left and right arrays have elements remaining
         while indexL < len(leftArray) and indexR < len(rightArray):
             # Iterate through the left and right arrays, moving values back to the main array as appropriate
-            # Compare the values of the two subarrays, check if the left value is <= to the right value
-            # If you change the comparison from <= to > it will sort the array in decending order instead
+            # Compare the values of the two sub-arrays, check if the left value is <= to the right value
+            # If you change the comparison from <= to > it will sort the array in descending order instead
             if leftArray[indexL] <= rightArray[indexR]:
                 # If so, set the main array at current index equal to the left value
                 mainArray[indexM] = leftArray[indexL]
                 # Increment the left index counter
                 indexL += 1
             else:
-                # If not, set the main array at curret index equal to the right value
+                # If not, set the main array at current index equal to the right value
                 mainArray[indexM] = rightArray[indexR]
                 # Increment the right index counter
                 indexR += 1
