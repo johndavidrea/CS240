@@ -33,7 +33,10 @@
 4. Write in the programming language of your choice a quick sort algorithm that works over an array. Comment to explain the algorithm.
     https://github.com/johndavidrea/CS240/blob/main/Week%204/Quicksort.py
 
-5. How do the best, average and worst case time complexities compare between these two algorithms? 
+5. How do the best, average and worst case time complexities compare between these two algorithms?
+    Both have the same best and average cases for time complexity, which is O(n log n).
+    The worst case of quicksort is O(n^2) which occurs when the pivot selection picks an extremely high or low number, causing the two partitions of the array to become wildly different in size
+    The worse cast of mergesort is O(n log n), making it a better choice for larger datasets where minimizing the worst case scenario is important.
 
 6. Use the uploaded file to verify your sort algorithms are working. numbers-4.txt Download numbers-4.txt  What is the position of 90262? What is the position of 11559? 
     The position of 90262 is 3608
