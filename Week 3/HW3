@@ -23,3 +23,5 @@
     
 
 5. Use the following attached documents to test your search algorithms. numbers-3.txt Download numbers-3.txtUse one of your sorting algorithms to sort the list first before implementing binary search. What position is 8128705 in?   What position is 5842193?
+    8128705 is in position 8101
+    5842193 does not exist in the list of numbers
